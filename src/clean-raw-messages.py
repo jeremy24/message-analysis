@@ -7,7 +7,7 @@ from message import Message
 from attachment import Attachment
 from attachment import map_raw_to_attachment
 
-with open("../data/raw-messages.json") as raw_data_file:
+with open("../raw_data/raw-messages.json") as raw_data_file:
     raw_data = json.load(raw_data_file)
 
 print "length", len(raw_data)
@@ -37,7 +37,7 @@ for tmp in p_data:
 
 
 print p_data[0]
-with open("../data/clean-messages.json", "w") as out_file:
+with open("../clean_data/clean-messages.json", "w") as out_file:
     out = dict()
     out["messages"] = p_data
     out["length"] = len(p_data)

@@ -3,11 +3,22 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+#data
+raw_data/*
+clean_data/*
+
+#config files
+config/*
+
+
+
 # C extensions
 *.so
 
 # data files
 data/*
+
 
 # Distribution / packaging
 .Python
