@@ -10,4 +10,4 @@ mash into into a standard message model
 - Finish get meta to add group and user meta data to images
 - Add group data processor
 - Add user data processor
-- Add a cool way to build a graph relating users to phrases other users, phrases, and groups. 
+- Add a cool way to build a graph relating users to other users, phrases, and groups. 
